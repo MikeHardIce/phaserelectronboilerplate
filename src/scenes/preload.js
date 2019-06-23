@@ -9,7 +9,7 @@ export class Preloader extends Phaser.Scene {
     }
     
     preload () {
-        this.load.image('logo', './src/img/phaser.png');
+        this.load.image('logo', 'assets/phaser.png');
     }
     
     

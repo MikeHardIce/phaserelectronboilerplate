@@ -17,6 +17,12 @@ function createWindow () {
     slashes: true
   }));
 
+   
+  win.loadURL(url.format({
+    pathname: path.join(__dirname, 'assets','phaser.png'),
+    protocol: 'file:',
+    slashes: true
+  }));
   // Open the DevTools.
   //win.webContents.openDevTools()
 
